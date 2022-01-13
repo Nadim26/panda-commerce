@@ -18,4 +18,46 @@
     border-radius: 8PX;
     padding: 9PX 25px;
     cursor: pointer;
+    text-decoration: none;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cat1{
+    /* background-color: orange; */
+    background-image: linear-gradient(to right, orange 0%, rgb(130, 211, 236) 100%);
+    
+}
+.cat2{
+    /* background-color: orchid; */
+    background-image: linear-gradient(to right, rgb(231, 42, 175) 0%, rgb(231, 229, 91) 100%);
+
+}
+.cat3{
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgb(20, 10, 161) 0%, rgb(201, 29, 29) 100%);
+}
+.categories h1{
+    color: cornsilk;
+}
+.categories img{
+    width: 100px;
+}
+.c1,.c2,.c3{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: black 5px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+#contact{
+    height: 250px;
+}
+footer{
+    text-align: center;
+    
 }
